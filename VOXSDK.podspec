@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                   = "VOXSDK"
-  s.version                = "1.0.1"
+  s.version                = "1.0.2"
   s.summary                = "Краткое описание вашего фреймворка"
   s.homepage               = "https://github.com/ktezik/voxsdk"
   s.license                = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = "15.0"
   s.swift_version          = "5.7"
   
-  s.source_files           = ['VOXSDK/**/*.{swift,h,m}', 'VOXSDK.xcodeproj']
+  s.source_files           = ["VOXSDK/**/*.swift"]
 end
