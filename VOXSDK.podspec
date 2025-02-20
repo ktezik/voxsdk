@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                   = "VOXSDK"
-  s.version                = "1.0.2"
+  s.version                = "1.0.4"
   s.summary                = "Краткое описание вашего фреймворка"
   s.homepage               = "https://github.com/ktezik/voxsdk"
   s.license                = { :type => 'MIT', :file => 'LICENSE' }
